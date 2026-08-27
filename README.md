@@ -42,19 +42,10 @@ meeting-minutes-skill/
 帮我安装这个 skill：https://github.com/PerryYuan2002/meeting-minutes-skill
 ```
 
-兼容任何支持 `SKILL.md` 的主流 Agent（把链接贴给对应 Agent 即可）：
-
-| Agent | 安装说法 |
-|---|---|
-| WorkBuddy | 发链接 +「安装这个 skill」 |
-| Claude | 发链接 +「install the skill at <链接>」 |
-| Cursor | 发链接 +「install the skill from <链接>」 |
-| CodeBuddy | 发链接 +「安装这个 skill：<链接>」 |
-
 **怎么用**
-1. 把你的会议文字稿复制到对话框。
-2. 跟 AI 说：「把这份转录稿整理成会议纪要」。
-3. 按它问的三点确认（什么会 / 重点要什么 / 给谁看），它就出纪要了。
+- 把会议文字稿复制到对话框。
+- 跟 AI 说：「整理成会议纪要」。
+- 按它问的三点确认，就出纪要了。
 
 ## 输入 / 输出
 
@@ -64,3 +55,5 @@ meeting-minutes-skill/
 ## License
 
 [MIT](./LICENSE)
+
+> 英文版：见 [README_EN.md](./README_EN.md)
