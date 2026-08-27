@@ -16,26 +16,29 @@ An Agent skill that turns meeting transcripts into structured meeting minutes (f
 ## What it does
 
 - **Auto-detects the meeting scenario**: 17 built-in presets — the full sales cycle (discovery / demo / proposal / negotiation / POC / delivery / event / internal review) plus general business meetings (decision / standup / review / brainstorm / strategy / kickoff / training / governance / fallback).
-- **Mandatory 3-question confirmation**: before producing minutes it confirms "meeting type + focus + audience" — no guessing, gaps are flagged.
+- **Mandatory 4-question confirmation**: before producing minutes it confirms "meeting type + focus + audience + output format" — no guessing, gaps are flagged.
 - **Dual-view output**: an executive summary (scan in one screen) plus the full minutes (with anchors back to the source).
+- **Selectable output formats**: detailed Word (for archives) / visual HTML single page (card layout + one-click export to PDF·PNG·JPG, great for sharing) / Markdown (paste into a knowledge base) — multiple formats can be produced at once.
 - **External redaction flow**: when the audience includes an external version, it first lists redaction suggestions → waits for human confirmation → then generates, preventing internal judgments / price floors from leaking.
 
 ## Four iron rules
 
 1. **Never fabricate**: never fill in or assume anything not present in the transcript.
 2. **Flag what's missing**: if an action item lacks an owner / due date, mark it "⚠️ TBD" — don't guess.
-3. **Confirm first**: never generate minutes before the 3-question confirmation is done.
+3. **Confirm first**: never generate minutes before the 4-question confirmation is done.
 4. **Redact for external use**: when the audience includes an external version, list redaction suggestions → confirm → then generate.
 
 ## Directory structure
 
 ```
 meeting-minutes-skill/
-├── SKILL.md                 # main flow, four iron rules, 3-question card, output structure
+├── SKILL.md                 # main flow, four iron rules, 4-question card, output structure
 └── references/
     ├── presets.md           # methodology & modules for the 17 scenario presets
     ├── signals.md           # signal lexicon & confidence rules for auto-classification
-    └── redaction.md         # external redaction rules & sensitive-info checklist
+    ├── redaction.md         # external redaction rules & sensitive-info checklist
+    ├── output_formats.md    # how to choose among the 3 output formats & generation notes
+    └── visual_template.html # visual HTML skeleton (with PDF/PNG/JPG export buttons)
 ```
 
 ## Install / Use
@@ -49,7 +52,7 @@ Install this skill for me: https://github.com/PerryYuan2002/meeting-minutes-skil
 **How to use**
 - Paste your meeting transcript into the chat.
 - Tell the AI: "Summarize this into meeting minutes".
-- Confirm the three questions it asks, and it outputs the minutes.
+- Confirm the four questions it asks, and it outputs the minutes.
 
 ## License
 
