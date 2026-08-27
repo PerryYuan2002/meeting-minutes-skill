@@ -1,3 +1,5 @@
+[🇨🇳 中文](./README.md) · [🇺🇸 English](./README_EN.md)
+
 # meeting-minutes-skill
 
 <p align="center">
