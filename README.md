@@ -1,5 +1,3 @@
-[🇨🇳 中文](./README.md) · [🇺🇸 English](./README_EN.md)
-
 # meeting-minutes-skill
 
 <p align="center">
@@ -7,6 +5,10 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
   <img src="https://img.shields.io/github/stars/PerryYuan2002/meeting-minutes-skill?style=social" alt="GitHub stars" />
   <img src="https://img.shields.io/github/last-commit/PerryYuan2002/meeting-minutes-skill" alt="Last commit" />
+</p>
+
+<p align="center">
+  <a href="./README.md">🇨🇳 中文</a> · <a href="./README_EN.md">🇺🇸 English</a>
 </p>
 
 把会议转录稿转成结构化会议纪要的 Agent Skill（适用于 WorkBuddy / Claude / 任意支持 SKILL.md 的 AI 代理）。
@@ -57,5 +59,3 @@ meeting-minutes-skill/
 ## License
 
 [MIT](./LICENSE)
-
-> 英文版：见 [README_EN.md](./README_EN.md)

@@ -1,5 +1,3 @@
-[🇺🇸 English](./README_EN.md) · [🇨🇳 中文](./README.md)
-
 # meeting-minutes-skill
 
 <p align="center">
@@ -7,6 +5,10 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
   <img src="https://img.shields.io/github/stars/PerryYuan2002/meeting-minutes-skill?style=social" alt="GitHub stars" />
   <img src="https://img.shields.io/github/last-commit/PerryYuan2002/meeting-minutes-skill" alt="Last commit" />
+</p>
+
+<p align="center">
+  <a href="./README_EN.md">🇺🇸 English</a> · <a href="./README.md">🇨🇳 中文</a>
 </p>
 
 An Agent skill that turns meeting transcripts into structured meeting minutes (for WorkBuddy / Claude / any agent that supports `SKILL.md`).
@@ -52,5 +54,3 @@ Install this skill for me: https://github.com/PerryYuan2002/meeting-minutes-skil
 ## License
 
 [MIT](./LICENSE)
-
-> 中文版：见 [README.md](./README.md)
