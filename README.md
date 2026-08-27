@@ -36,22 +36,25 @@ meeting-minutes-skill/
 
 ## 安装 / 使用
 
-本 skill 兼容任何支持 `SKILL.md` 的主流 Agent。**安装方式：把下面这个仓库链接贴给你的 Agent，让它从链接拉取并加载即可——无需手动下载、解压或配置文件目录。**
+**一键安装**：复制下面这整行，直接粘贴给你的 Agent 即可：
 
-**仓库地址（复制发给你的 Agent）：**
 ```
-https://github.com/PerryYuan2002/meeting-minutes-skill
+帮我安装这个 skill：https://github.com/PerryYuan2002/meeting-minutes-skill
 ```
 
-| Agent | 怎么装 |
+兼容任何支持 `SKILL.md` 的主流 Agent（把链接贴给对应 Agent 即可）：
+
+| Agent | 安装说法 |
 |---|---|
-| WorkBuddy | 把上面的链接发给 Agent，说「安装这个 skill」 |
-| Claude（Claude Code / 桌面版） | 把链接贴给 Agent：「install the skill at <链接>」 |
-| Cursor | 把链接贴给 Agent：「install the skill from <链接>」 |
-| CodeBuddy / CodeBuddy Code | 把链接发给 Agent：「安装这个 skill：<链接>」 |
-| 其他支持 SKILL.md 的代理 | 同样：把链接贴给 Agent，让它从链接加载 |
+| WorkBuddy | 发链接 +「安装这个 skill」 |
+| Claude | 发链接 +「install the skill at <链接>」 |
+| Cursor | 发链接 +「install the skill from <链接>」 |
+| CodeBuddy | 发链接 +「安装这个 skill：<链接>」 |
 
-装好后，把会议转录稿贴给 Agent，说「把这份转录稿整理成会议纪要」即可触发完整流程（读稿 → 分类 → 三问确认 → 抽取 → 校验 → 输出）。
+**怎么用**
+1. 把你的会议文字稿复制到对话框。
+2. 跟 AI 说：「把这份转录稿整理成会议纪要」。
+3. 按它问的三点确认（什么会 / 重点要什么 / 给谁看），它就出纪要了。
 
 ## 输入 / 输出
 
